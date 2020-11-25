@@ -1,0 +1,14 @@
+/interactions/2020/
+/*.sl3
+/.idea
+/__pycache__
+*/__pycache__
+/*.csv
+/*.json
+/secrets/
+/venv/
+/ConvoAnalytics.egg-info/
+/output/
+.coverage
+/htmlcov/
+.DS_Store

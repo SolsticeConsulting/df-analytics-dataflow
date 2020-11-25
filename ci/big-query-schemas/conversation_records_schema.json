@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "record_lookup_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "customer",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "agent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "intent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "event",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sentiment_score",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sentiment_magnitude",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "fallback_trigger",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "match_confidence",
+    "type": "FLOAT"
+  }
+]

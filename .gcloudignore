@@ -1,0 +1,9 @@
+/secrets/
+/venv/
+analyze.py
+createAnalyticRecord.py
+*.sl3
+*.zip
+/ci/
+.coverage
+/htmlcov/

@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "record_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "session_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_fallback_triggered",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "escalated",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "origin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "conversation_depth",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "csat",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "sentiment_score",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ext_shopper_id",
+    "type": "STRING"
+  }
+]
