@@ -23,12 +23,10 @@ the Google-Cloud-SDK.
 
 ## Architecture
 This is a generic overview of the pipeline logic and how it flows into Azure. 
-![Analytic Pipeline Chart]
-(docs/images/streaming_pipeline.png)
+![Analytic Pipeline Chart](./docs/images/streaming_pipeline.png)
 
 The pipeline defined within compiles into this graph.
-![Dataflow Pipeline Graph]
-(docs/images/dataflow_pipeline.jpg)
+![Dataflow Pipeline Graph](./docs/images/dataflow_pipeline.jpg)
 
 ## Pre-Requisites
 In order to use this code you will need the following:
