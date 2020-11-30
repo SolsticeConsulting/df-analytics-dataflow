@@ -21,6 +21,15 @@ This Pipeline and Library consist of the following:
 This library and pipeline code utilizes Python 3.6 or newer with Apache Beam and 
 the Google-Cloud-SDK.
 
+## Architecture
+This is a generic overview of the pipeline logic and how it flows into Azure. 
+![Analytic Pipeline Chart]
+(docs/images/streaming_pipeline.png)
+
+The pipeline defined within compiles into this graph.
+![Dataflow Pipeline Graph]
+(docs/images/dataflow_pipeline.jpg)
+
 ## Pre-Requisites
 In order to use this code you will need the following:
 - Google Cloud SDK (Download Here)[https://cloud.google.com/sdk]
@@ -73,7 +82,8 @@ Apache Beam provides different Runner platforms to execute your pipeline on.  Yo
 run the pipeline locally or on Google Cloud Platform as well as several other environments.
 
 Our code is written to support both the `DirectRunner` and the `DataflowRunner`.  The direct pipeline
-version emits files directly to the local machine. This is to prevent bottlenecks with 
+version emits files directly to the local machine into the `output` folder.  You will need to 
+create a `output/analytic_records` and `output/conversation_records` directories. This is to prevent bottlenecks with 
 upload speed.  Files may then be pushed to cloud storage manually.
 
 Before executing these pipelines ensure that you've gone though virtualenv setup and 
@@ -128,7 +138,7 @@ To view the reports you can either run
 ```shell script
 coverage report --include=ConvoAnalytics/*
 ```
-or
+or to generate an html report and open it
 ```shell script
 coverage html --include=ConvoAnalytics/* && open htmlcov/index.html
 ```
